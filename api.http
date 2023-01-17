@@ -1,0 +1,28 @@
+###
+GET http://localhost:8000/api/v1/user/all
+
+###
+POST http://localhost:8000/api/v1/user/save
+Content-Type: application/json
+
+{
+    "gender":"male",
+    "name" : "Arafat",
+    "contact":"arafat15-14401@diu.edu.bd",
+    "address":"Bamoil,Demra-Dhaka",
+    "photoUrl":"https://scontent.fdac15-1.fna.fbcdn.net/v/t39.30808-1/325429066_498118139103483_2925512619127882487_n.jpg?stp=dst-jpg_p240x240&_nc_cat=109&ccb=1-7&_nc_sid=7206a8&_nc_ohc=zVXvUjpqHJQAX830y4m&_nc_ht=scontent.fdac15-1.fna&oh=00_AfCFsGOpYAByQupArtdYELQ9ByGZ_kigOWi4Yf5zZrz_ZQ&oe=63CBF33D"
+}
+
+###
+GET http://localhost:8000/api/v1/user/random
+
+###
+PATCH http://localhost:8000/api/v1/user/update/id/aqkQgSSMQ
+Content-Type: application/json
+
+{
+    "name":"Gazi Rashedul Islam"
+}
+
+###
+DELETE http://localhost:8000/api/v1/user/delete/pRg1DICPg
